@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.spring.mvc.first</groupId>
-  <artifactId>FirstSpringWebMVC</artifactId>
-  <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>FirstSpringWebMVC Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-  
-<properties>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.spring.mvc.first</groupId>
+	<artifactId>FirstSpringWebMVC</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>FirstSpringWebMVC Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
 		<spring.version>4.0.1.RELEASE</spring.version>
 	</properties>
 	<dependencies>
@@ -53,9 +53,14 @@
 			<version>1.0.0.GA</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-extras</artifactId>
+			<version>3.0.5</version>
+		</dependency>
 	</dependencies>
 
-  <build>
-    <finalName>FirstSpringWebMVC</finalName>
-  </build>
+	<build>
+		<finalName>FirstSpringWebMVC</finalName>
+	</build>
 </project>
